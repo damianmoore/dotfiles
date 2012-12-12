@@ -7,13 +7,18 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 set nowrap
+set number
 
+if has("gui_running")
+    set guifont=Source\ Code\ Pro\ Semibold\ 9
+    colorscheme fruity
+endif
 
 " Copy and paste with the system clipboard
-nnoremap y "+y
-vnoremap y "+y
-nnoremap p "+p
-vnoremap p "+p
+"nnoremap y "+y
+"vnoremap y "+y
+"nnoremap p "+p
+"vnoremap p "+p
 
 
 " Set 256 colours for gnome terminal
