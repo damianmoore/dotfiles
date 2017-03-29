@@ -1,19 +1,19 @@
 @import url("/usr/share/gnome-shell/theme/gnome-shell.css");
 
 stage {                                                                         
-    font-family: ubuntu, cantarell, sans-serif;                                         
-    font-size: 11pt;                                                            
-    color: white;                                                               
+    font-family: ubuntu, cantarell, sans-serif;
+    font-size: 10pt;
+    color: white;
 }
 
 #panel {
-    height: 1.55em;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
-
 .panel-button {
     -natural-hpadding: 6px;
     -minimum-hpadding: 4px;
     font-weight: bold;
-    color: #ccc;
+    color: #fff;
     transition-duration: 100;
 }
